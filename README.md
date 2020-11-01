@@ -3,16 +3,16 @@
 <h1 align="center">TODO App</h1>
 
 <div align="center">
-   Solution for a challenge fromm  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
 </div>
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://todo-app.cqrlosarch.vercel.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devchallenges.io/solutions/lwzp4H8HUxka8yjnbnYm">
       Solution
     </a>
     <span> | </span>
