@@ -48,6 +48,7 @@
 
 - [React](https://reactjs.org/)
 - [Styled Components](https://styled-components.com/)
+- [LocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
 
 ## Features
 
