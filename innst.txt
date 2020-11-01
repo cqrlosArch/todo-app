@@ -1,0 +1,7 @@
+Desafío: crea una aplicación de tareas pendientes siguiendo diseños dados. Utilice bibliotecas de front-end como React o Vue. No mire la solución existente. Cumplir con las historias de usuario a continuación:
+
+Historia de usuario: puedo agregar una nueva tarea
+Historia de usuario: puedo completar una tarea
+Historia de usuario: puedo alternar entre Todo, Activo y Completado
+Historia de usuario: puedo eliminar una o todas las tareas en la pestaña Completado
+Historia de usuario (opcional): almacena los datos en el almacenamiento local que cuando actualizo la página todavía puedo ver mi progreso
