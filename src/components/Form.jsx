@@ -51,6 +51,7 @@ const Form = ({ addTask }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     addTask(task);
+    setTask('');
   };
   return (
     <FormStyled>

@@ -32,11 +32,11 @@ const ItemMenuStyled = styled.button`
         background: #2f80ed;
         border-radius: 4px 4px 0px 0px;
         @media screen and (max-width: 700px) {
-          transform: translate(30%, 17px);
+          transform: translate(35%, 17px);
           width: 60px;
         }
         @media screen and (max-width: 400px) {
-          transform: translate(10%, 17px);
+          transform: translate(15%, 17px);
         }
       }
     `}

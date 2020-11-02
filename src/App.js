@@ -26,7 +26,7 @@ const GlobalStyled = createGlobalStyle`
 `;
 
 const initialTaskList = [
-  { id: 1, title: 'Hacer la compra en Mercadona', completed: false },
+  { id: 1, title: 'Empezar curso de React', completed: false },
   { id: 2, title: 'Configurar Alexa', completed: true },
 ];
 
