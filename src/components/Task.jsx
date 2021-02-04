@@ -31,6 +31,9 @@ const TaskStyled = styled.div`
     right: 0;
     cursor: pointer;
     color: #bdbdbd;
+    &:hover {
+      color: #eb5757;
+    }
   }
 `;
 
@@ -42,11 +45,19 @@ const Task = ({ task, changeState, deleteTask }) => {
         checked={task.completed}
         onChange={() => changeState(task.id)}
         className="input"
+        id={task.id}
       />
-      <label className="task-title">{task.title}</label>
-      <span className="material-icons icon" onClick={() => deleteTask(task.id)}>
-        delete_outline
-      </span>
+      <label className="task-title" htmlFor={task.id}>
+        {task.title}
+      </label>
+      {task.completed && (
+        <span
+          className="material-icons icon"
+          onClick={() => deleteTask(task.id)}
+        >
+          delete_outline
+        </span>
+      )}
     </TaskStyled>
   );
 };
