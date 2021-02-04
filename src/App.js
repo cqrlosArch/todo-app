@@ -87,7 +87,7 @@ function App() {
       <GlobalStyled />
       <Wrapper>
         <Menu filter={filter} changeFilter={changeFilter} />
-        <Form addTask={addTask} />
+        {filter !== 'completed' && <Form addTask={addTask} />}
         <TodoList
           taskList={taskList}
           changeState={changeState}
